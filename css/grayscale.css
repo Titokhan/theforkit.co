@@ -36,6 +36,12 @@ p {
     line-height: 1.5;
 }
 
+#video {
+    width: 96%;
+    margin:0 auto;
+    min-width: 300px;
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 10px;
@@ -44,6 +50,11 @@ p {
     }
 }
 
+@media(min-width:300px) {
+    #video {
+        display: none;
+    }
+}
 a {
     color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
@@ -56,6 +67,8 @@ a:focus {
     text-decoration: none;
     color: #1d9b6c;
 }
+
+
 
 .light {
     font-weight: 400;
